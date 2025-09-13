@@ -1,0 +1,201 @@
+[INDEX.html](https://github.com/user-attachments/files/22315253/INDEX.html)
+<!DOCTYPE html>
+<html lang="es" data-bs-theme="auto"> 
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Este desarrollo es de mi empresa">
+  <meta name="author" content="Alonso García">
+  <title>Venta de Camiones</title>
+
+  <!-- Bootstrap CSS desde CDN -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+
+  <!-- Mi hoja de estilos personalizada -->
+  <link href="STYLE.css" rel="stylesheet">
+
+  <meta name="theme-color" content="#0A163B">
+</head>
+
+<body> 
+
+  <!-- Barra de navegación -->
+  <header data-bs-theme="dark">
+    <nav class="navbar navbar-expand-md fixed-top mi-navbar">
+     <!--<nav class="navbar navbar-expand-md navbar-dark fixed-top bg-dark">-->
+      <div class="container-fluid">
+        <a class="navbar-brand" href="#">VENTA DE CAMIONES</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse"
+          aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="navbarCollapse">
+          <ul class="navbar-nav me-auto mb-2 mb-md-0">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="#">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Servicios</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Contacto</a>
+            </li>
+          </ul>
+
+          <form class="d-flex" role="search">
+            <input class="form-control me-2" type="search" placeholder="Buscar" aria-label="Search">
+            <button class="btn btn-outline-success" type="submit">Buscar</button>
+          </form>
+        </div>
+      </div>
+    </nav>
+  </header>
+
+  <!-- Contenido principal -->
+  <main>
+
+    <!-- Carousel -->
+    <div id="myCarousel" class="carousel slide mb-6" data-bs-ride="carousel">
+      <!-- Indicadores -->
+      <div class="carousel-indicators">
+        <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="0" class="active" aria-current="true"
+          aria-label="Slide 1"></button>
+        <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="1" aria-label="Slide 2"></button>
+        <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="2" aria-label="Slide 3"></button>
+      </div>
+
+      <!-- Slides -->
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <svg class="bd-placeholder-img" width="100%" height="100%" xmlns="http://www.w3.org/2000/svg"
+            aria-hidden="true" preserveAspectRatio="xMidYMid slice">
+            <rect width="100%" height="100%" fill="var(--bs-secondary-color)" />
+          </svg>
+          <div class="container">
+            <div class="carousel-caption text-start">
+              <h1>PEPES TRUCKS</h1>
+              <p class="opacity-75">PEPES TRUCKS Movemos tu mundo</p>
+              <p><a class="btn btn-lg btn-primary" href="#">Comenzar ahora</a></p>
+            </div>
+          </div>
+        </div>
+
+        <div class="carousel-item">
+          <svg class="bd-placeholder-img" width="100%" height="100%" xmlns="http://www.w3.org/2000/svg"
+            aria-hidden="true" preserveAspectRatio="xMidYMid slice">
+            <rect width="100%" height="100%" fill="var(--bs-secondary-color)" />
+          </svg>
+          <div class="container">
+            <div class="carousel-caption">
+              <h1>Nuestras camiones.</h1>
+              <p>Contamos con camiones nuevos y seminuevos.</p>
+              <p><a class="btn btn-lg btn-primary" href="#">Descubre más</a></p>
+            </div>
+          </div>
+        </div>
+
+        <div class="carousel-item">
+          <svg class="bd-placeholder-img" width="100%" height="100%" xmlns="http://www.w3.org/2000/svg"
+            aria-hidden="true" preserveAspectRatio="xMidYMid slice">
+            <rect width="100%" height="100%" fill="var(--bs-secondary-color)" />
+          </svg>
+          <div class="container">
+            <div class="carousel-caption text-end">
+              <h1>Calidad Premium.</h1>
+              <p>Conoce lo que es un camión PREMIUM.</p>
+              <p><a class="btn btn-lg btn-primary" href="#">Explorar galería</a></p>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Controles -->
+      <button class="carousel-control-prev" type="button" data-bs-target="#myCarousel" data-bs-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Anterior</span>
+      </button>
+      <button class="carousel-control-next" type="button" data-bs-target="#myCarousel" data-bs-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Siguiente</span>
+      </button>
+    </div>
+
+    <!-- Marketing -->
+    <div class="container marketing my-5">
+      <div class="row text-center">
+        <div class="col-lg-4">
+          <img src="Camiones nuevos.jpeg" class="bd-placeholder-img rounded-circle mb-3" alt="Imagen 1" width="250px" height="250px">
+          <h2 class="fw-normal">Camiones nuevos</h2>
+          <p>De todas las marcas</p>
+          <p><a class="btn btn-secondary" href="#">Ver más &raquo;</a></p>
+        </div>
+
+        <div class="col-lg-4">
+          <img src="Camiones seminuevos.jpeg" class="bd-placeholder-img rounded-circle mb-3" alt="Imagen 2" width="250px" height="250px">
+          <h2 class="fw-normal">Camiones seminuevos</h2>
+          <p>Excelentes condiciones</p>
+          <p><a class="btn btn-secondary" href="#">Ver más &raquo;</a></p>
+        </div>
+
+        <div class="col-lg-4">
+          <img src="Servicio para tu camión.jpeg" class="bd-placeholder-img rounded-circle mb-3" alt="Imagen 3" width="250px" height="250px">
+          <h2 class="fw-normal">Servicio para tu camión</h2>
+          <p>Cambios de aceite, pinturas, refacciones y más..</p>
+          <p><a class="btn btn-secondary" href="#">Ver más &raquo;</a></p>
+        </div>
+      </div>
+    </div>
+
+    <!-- Featurettes -->
+    <div class="container my-5">
+      <hr class="featurette-divider">
+
+      <div class="row featurette">
+        <div class="col-md-7">
+          <h2 class="featurette-heading fw-normal lh-1">Camiones Premium <span class="text-body-secondary">a tu alcance.</span></h2>
+          <p class="lead">Marcas premium a un precio accesible.</p>
+        </div>
+        <div class="col-md-5">
+          <img src="Camiones Premium.jpeg" class="img-fluid mx-auto" alt="Feature 1" width="250px" height="250px">
+        </div>
+      </div>
+
+      <hr class="featurette-divider">
+
+      <div class="row featurette">
+        <div class="col-md-7 order-md-2">
+          <h2 class="featurette-heading fw-normal lh-1">Atención personalizada <span class="text-body-secondary">para todos los gustos.</span></h2>
+          <p class="lead">Contacta y unos de nuestros agentes te atenderá.</p>
+        </div>
+        <div class="col-md-5 order-md-1">
+          <img src="Atención personalizada.jpeg" class="img-fluid mx-auto" alt="Feature 2" width="250px" height="250px">
+        </div>
+      </div>
+
+      <hr class="featurette-divider">
+
+      <div class="row featurette">
+        <div class="col-md-7">
+          <h2 class="featurette-heading fw-normal lh-1">Servicios adicionales<span class="text-body-secondary"> en cualquier sucursal.</span></h2>
+          <p class="lead">Dale un buen mantenimiento a tu camión con nosotros.</p>
+        </div>
+        <div class="col-md-5">
+          <img src="Servicios adicionales.jpeg" class="img-fluid mx-auto" alt="Feature 3" width="250px" height="250px">
+        </div>
+      </div>
+
+      <hr class="featurette-divider">
+    </div>
+
+    <!-- Footer -->
+    <footer class="container text-center py-4">
+      <p class="float-end"><a href="#">Volver arriba</a></p>
+      <p>&copy; 2025 PEPES TRUCKS &middot; <a href="#">Privacidad</a> &middot; <a href="#">Términos</a></p>
+    </footer>
+  </main>
+
+  <!-- Bootstrap JS desde CDN -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
